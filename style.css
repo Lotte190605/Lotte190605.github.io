@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Garamond, Times, serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #cbcdcb;
+  }
+
+  .link{
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .topnav a img {
+    float: left;
+    text-align: center;
+    width: 60px;
+    margin-left: 10px;
+    height: 50px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #29292c;
+    color: white;
+  }
+
+  .image{
+    width: 500px;
+  }
+
+  .koptekst{
+    padding: 10px;
+    margin-bottom: 0px;
+
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 0px;;
+  }
